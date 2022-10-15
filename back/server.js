@@ -9,7 +9,7 @@ const dotenv=require("dotenv");
 dotenv.config({path: 'back/config/config.env'})
 
 //configurar base de datos
-connectDatabase
+connectDatabase();
 
 //Llamemos al server
 const server=app.listen(process.env.PORT, () => {

@@ -1,4 +1,4 @@
-/*const producto=require("../models/productos")*/
+const producto=require("../modelos/productos")
 
 //Ver la lista de productos
 exports.getProducts=(req,res,next) =>{
@@ -8,7 +8,7 @@ exports.getProducts=(req,res,next) =>{
     })
 }
 
-/*//Crear nuevo producto /api/productos
+//Crear nuevo producto /api/productos
 exports.newProduct=async(req,res,next)=>{
     const product= await producto.create(req.body);
 
@@ -16,4 +16,4 @@ exports.newProduct=async(req,res,next)=>{
         success:true,
         product
     })
-}*/
+}
