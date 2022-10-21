@@ -8,7 +8,7 @@ export const Footer = () => {
                 Vety Shop Store - 2022 - Mision TIC - Todos los derechos reservados
             </p>
         </footer>
-            
+
     </Fragment>
   )
 }
